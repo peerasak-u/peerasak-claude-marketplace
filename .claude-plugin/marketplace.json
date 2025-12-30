@@ -1,0 +1,29 @@
+{
+  "name": "peerasak-marketplace",
+  "owner": {
+    "name": "Peerasak Unsakon",
+    "email": "clonezer@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "apple-notes",
+      "source": "./plugins/apple-notes-skills",
+      "description": "Interact with Apple Notes on macOS via JXA (JavaScript for Automation)",
+      "strict": false,
+      "keywords": ["apple-notes", "macos", "jxa", "notes", "automation"],
+      "skills": ["./skills/apple-notes"]
+    },
+    {
+      "name": "send-to-kindle",
+      "source": "./plugins/send-to-kindle-skills",
+      "description": "Send EPUB and PDF files to Kindle via email using Apple Mail.app on macOS",
+      "strict": false,
+      "keywords": ["kindle", "epub", "pdf", "email", "macos", "mail", "reading"],
+      "skills": ["./skills/send-to-kindle"]
+    }
+  ],
+  "metadata": {
+    "description": "Marketplace for skills by Peerasak Unsakon",
+    "version": "1.0.0"
+  }
+}
