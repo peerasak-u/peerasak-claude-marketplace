@@ -7,6 +7,12 @@
 | [apple-notes](#apple-notes) | Interact with Apple Notes via JXA | `/plugin install apple-notes` |
 | [send-to-kindle](#send-to-kindle) | Send EPUB/PDF to Kindle via Mail.app | `/plugin install send-to-kindle` |
 
+## Financial Tools
+
+| Plugin | Description | Install |
+|--------|-------------|---------|
+| [pacioli](#pacioli) | Generate financial documents | `/plugin install pacioli` |
+
 ---
 
 ## apple-notes
@@ -41,6 +47,22 @@ bunx @peerasak-u/send-to-kindle \
 ```
 
 [View commands](../plugins/send-to-kindle-skills/skills/send-to-kindle/references/COMMANDS.md)
+
+---
+
+## pacioli
+
+Generates professional financial documents (invoices, quotations, receipts) for freelancers using HTML templates and Puppeteer.
+
+```bash
+# Generate an invoice
+bunx pacioli generate invoice invoices/oct-service.json --customer customers/acme.json
+
+# Generate a quotation
+bunx pacioli generate quotation quotations/web-design.json --customer customers/acme.json
+```
+
+[View schemas](../plugins/pacioli-skills/skills/pacioli/references/SCHEMAS.md)
 
 ---
 

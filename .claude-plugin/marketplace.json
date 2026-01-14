@@ -20,6 +20,14 @@
       "strict": false,
       "keywords": ["kindle", "epub", "pdf", "email", "macos", "mail", "reading"],
       "skills": ["./skills/send-to-kindle"]
+    },
+    {
+      "name": "pacioli",
+      "source": "./plugins/pacioli-skills",
+      "description": "Generates professional financial documents (invoices, quotations, receipts) for freelancers using HTML templates and Puppeteer.",
+      "strict": false,
+      "keywords": ["pacioli", "finance", "invoice", "quotation", "receipt", "pdf", "freelancer"],
+      "skills": ["./skills/pacioli"]
     }
   ],
   "metadata": {
